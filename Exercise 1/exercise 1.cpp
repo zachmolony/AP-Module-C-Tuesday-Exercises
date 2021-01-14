@@ -1,5 +1,5 @@
 #include <iostream> //tell the compiler to add refererences for the standard devices cin, cout, clog, cerr; http://www.cplusplus.com/reference/iostream/
-#include "header.h" // header file for use in exercise 3
+#include "../header.h" // header file for use in exercise 3
 using namespace std; // 'std::' is now implied
 
 // Exercise 1: ReverseWord
@@ -11,7 +11,7 @@ string reverse(string word, size_t wordSize) { // take the given word and the wo
   return word; // return the reversed string
 }
 
-int main() {
+int ex1() {
   string word;
   cout << "Please enter a word: ";
   cin >> word;

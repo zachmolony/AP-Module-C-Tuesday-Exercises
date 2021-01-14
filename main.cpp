@@ -1,14 +1,5 @@
-#include <iostream> //tell the compiler to add refererences for the standard devices cin, cout, clog, cerr; http://www.cplusplus.com/reference/iostream/
-#include "header.h"
-using namespace std; // 'std::' is now implied
-
-// Exercise 3: Palindrome Checker
+#include <iostream>
 
 int main() {
-  string word;
-  cout << "Please enter a word: ";
-  cin >> word;
-  string reversed = reverse(word, word.length());
-  cout << word << " is " << ((reversed == word) && " not ") << " a palindrome.\n";
-  return 0;
+  std::cout << "Hello World!\n";
 }

@@ -5,4 +5,6 @@
 
 std::string reverse(std::string, std::size_t);
 
+std::string convertToLower(std::string, std::size_t);
+
 #endif
