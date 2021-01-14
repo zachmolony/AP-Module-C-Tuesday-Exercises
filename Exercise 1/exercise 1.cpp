@@ -1,4 +1,5 @@
 #include <iostream> //tell the compiler to add refererences for the standard devices cin, cout, clog, cerr; http://www.cplusplus.com/reference/iostream/
+#include "header.h" // header file for use in exercise 3
 using namespace std; // 'std::' is now implied
 
 // Exercise 1: ReverseWord
